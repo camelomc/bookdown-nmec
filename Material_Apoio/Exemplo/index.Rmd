@@ -1,0 +1,19 @@
+--- 
+title: "Exemplo de bookdown"
+author: "Yihui Xie"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "testando a sequencia dos capitulos"
+---
+
+# Prefácio eu acho que precisa
+
+Eu nao vou escrever nada para testar
+
+
+mas entao, vamos la conforme os comandos

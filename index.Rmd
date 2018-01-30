@@ -1,0 +1,39 @@
+--- 
+title: "Livro BDDS"
+author: "Pedro Costa Ferreira et."
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [refe.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: camelomc/bookdown-nmec
+description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+---
+
+MATERIAL APOIO: https://bookdown.org/yihui/bookdown/
+
+Tem que começar com o primeiro capitulo aqui
+
+# Prefácio
+
+Colocar foto de capa do livro etc.
+
+<!---
+Instalação do pacote
+--->
+
+```{r eval=FALSE}
+install.packages("bookdown")
+# or the development version
+#devtools::install_github("rstudio/bookdown")
+```
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
